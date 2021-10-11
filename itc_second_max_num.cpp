@@ -1,6 +1,9 @@
 #include "middle.h"
 
 int itc_second_max_num(long long number){
+    if (itc_len_num(num) == 1){
+        return -1;
+    }
     if (number < 0)
         number *= -1;
     int second_max = 0, maxx = 0;
@@ -22,4 +25,6 @@ int itc_second_max_num(long long number){
     }
     return second_max;
     }
+    return -1;
 }
+
