@@ -17,5 +17,4 @@ bool itc_mirror_num(long long number){
             return true;
         return false;
     }
-   return -1;
 }
