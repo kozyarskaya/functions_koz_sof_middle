@@ -2,7 +2,7 @@
 
 bool itc_mirror_num(long long number){
     if (number == 0){
-        return 1;
+        return true;
     }
     else{
         if (number < 0)
@@ -14,8 +14,8 @@ bool itc_mirror_num(long long number){
             number /= 10;
         }
         if (num == new1)
-            return 1;
-        return 0;
+            return true;
+        return false;
     }
    return -1;
 }
