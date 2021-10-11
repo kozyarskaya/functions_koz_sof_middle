@@ -1,7 +1,7 @@
 #include "middle.h"
 
 int itc_second_max_num(long long number){
-    if (itc_len_num(num) == 1){
+    if (itc_len_num(number) == 1){
         return -1;
     }
     if (number < 0)
