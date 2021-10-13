@@ -1,7 +1,7 @@
 #include "middle.h"
 
 int itc_mirror_count(long long number){
-    int kol;
+    int kol = 0;
     if (number > 0){
     for (long long i = 1; i <= number; i++){
     //bool r = itc_mirror_num(i);
